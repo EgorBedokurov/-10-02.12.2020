@@ -2,7 +2,7 @@ any_list = []
 
 while True:
     a = input('enter some string: ')
-    if a != []:
+    if a != '':
         any_list.append(a)
     if a == '':
         break
